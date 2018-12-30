@@ -1,6 +1,6 @@
 ## How to install CALIBRE-WEB
 
-1. Execute the command: `sudo pt-get update`
+1. Execute the command: `sudo apt-get update`
 2. Install git and python pip: `sudo apt-get install git` and `sudo apt-get install python-pip`
 3. Download calibre-web: `git clone https://github.com/janeczku/calibre-web.git`
 4. Go to calibre-web folder `cd calibre-web`
