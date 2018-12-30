@@ -1,7 +1,7 @@
 ## How to install CALIBRE-WEB
 
-1. Execute the command: `apt-get update`
-2. Install git and python pip: `apt-get install git` and `apt-get install python-pip`
+1. Execute the command: `sudo pt-get update`
+2. Install git and python pip: `sudo apt-get install git` and `sudo apt-get install python-pip`
 3. Download calibre-web: `git clone https://github.com/janeczku/calibre-web.git`
 4. Go to calibre-web folder `cd calibre-web`
 5. Install dependencies by running `pip install --target vendor -r requirements.txt`. 
@@ -24,3 +24,8 @@
 
 1. Execute the command `ccd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -`.
 2. Start the service by running `~/.dropbox-dist/dropboxd`.
+
+## How to install CALIBRE CONVERTER
+
+1. Execute the command `sudo apt install calibre`
+2. Start the service by running `apt install calibre`
